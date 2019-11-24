@@ -1823,10 +1823,21 @@ h2 {
 
   .submenu>li {
     border-bottom: 1px solid #E5E5E5;
+    background: #0e4364;
   }
+  .page-main .submenu {
+    background:  #346987;
+  }
+
+  /*.menu-link {
+    position: relative;
+  }*/
 
   ul li:hover .submenu {
     display: block;
+    position: absolute;
+
+    z-index: 2;
   }
 
   .header-menu .submenu a {

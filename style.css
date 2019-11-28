@@ -1821,22 +1821,22 @@ h2 {
     padding: 0;
   }
 
-  .submenu>li {
+  .header-menu .submenu>li {
     border-bottom: 1px solid #E5E5E5;
     background: #0e4364;
   }
-  .page-main .submenu {
+  .page-main .header-menu .submenu {
     background:  #346987;
   }
 
   /*.menu-link {
     position: relative;
   }*/
-
   ul li:hover .submenu {
     display: block;
+  }
+  .header-menu ul li:hover .submenu {
     position: absolute;
-
     z-index: 2;
   }
 
